@@ -1,0 +1,54 @@
+.c-carrousel{
+    margin-left: 0px;
+
+  &__overflow{
+    height: 200px;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+    &__item{
+      min-width: 350px;
+      height: 180px;
+      margin-right: 24px;   
+      overflow: hidden;
+      border-top: 5px solid lightblue;
+      box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: row;
+    }
+    
+    &__img{
+      height: 180px;
+      width: 50%;
+      position: relative;
+    }
+
+    &__details{
+      padding-left: 10px;
+    }
+
+    &__title{
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    &__ubicacion{
+      font-size: 10px;
+    }
+  
+    &__final{
+      width: 50%;
+      height: 180px;
+      border-left: solid 25px rgba(0 , 0,0,0.0);
+    }
+  }
+
+  .loading{
+    height: auto;
+    width: 100px;
+  }
+  
